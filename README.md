@@ -8,7 +8,7 @@ This ERD Diagram displays the relationship between the five csv files provided t
 ___
 
 ![Transaction trends of cardholder 2](Images/transaction_cardholder_18&2.png)
-___
+From the card trend patterns above we can observe the differences in card behaviour. I do believe that transactions on cardholder 18 card are suspicious. Expensive and inconsistent large purchases never over $2,000 (a typical limit for a credit card) are abnormal. similarly, cardholder 2 may have stolen a card and used it to only purchase small items that the true owner may never notice. frequent small transaction of less than $25 is not typical for anyone with access to credit.
 
 ![Transaction trends of cardholder 2](Images/transaction_series_2.png)
 ___
@@ -17,4 +17,4 @@ ___
 
 ___
 ![Distibution of transactions for cardholder 25](Images/distribution_monthly_25.png)
-Card Holder 25 does indeed have outliers in its payments. We can establish this through the dots above the box plots, there are eight in total across the assessed six month period. The key anomoly I noticed is the increase in the amount spent for April. The outliers could be larger one-off payments such as rent. 
+Card Holder 25 does indeed have outliers in its payments. We can establish this through the dots above the box plots, there are eight in total across the assessed six-month period. The key anomoly I noticed is the increase in the amount spent for April. The outliers could be larger one-off payments such as rent. 
